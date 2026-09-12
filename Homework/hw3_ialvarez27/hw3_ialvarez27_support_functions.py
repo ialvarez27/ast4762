@@ -31,6 +31,13 @@ def square(N):
 
    >>> square(np.array([2,4,6]))
    array([ 4, 16, 36])
+
+   >>> square(5.7)
+   32.49
+
+   >>> square(np.array([[2,3],[4,5]]))
+   array([[ 4,  9],
+          [16, 25]])
 """
     return N ** 2
 
