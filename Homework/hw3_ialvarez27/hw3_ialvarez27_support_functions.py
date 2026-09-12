@@ -42,7 +42,7 @@ def square(N):
     return N ** 2
 
 
-def squareplot(low, high, space, saveplot=False):
+def squareplot(low, high, num_points, saveplot=False):
     """ Plots the square of an array over spaced points of a specified range.
     Parameters:
    -----------
@@ -50,7 +50,7 @@ def squareplot(low, high, space, saveplot=False):
          represents the low end of the range
    high: takes in `int``or ``float``
          represent the high end of the range (inclusive)
-   space: takes in `int``
+   num_points: takes in `int``
           represents number of points to plot
    saveplot: takes in ``str``, gives an optional filename
           to save the plot as a PDF. Defaults to False.
@@ -61,11 +61,10 @@ def squareplot(low, high, space, saveplot=False):
     Examples
     --------
     >>> squareplot(-5 ,5, 100, saveplot="my_sp_pdf")
-    Output a graph of x: (-5,5), max y: 25
 """
 
     # Creates an array x with evenly spaced points
-    x = np.linspace(low,high,space)
+    x = np.linspace(low, high, num_points)
 
     # Call the function square to obtain array y
     y = square (x)
