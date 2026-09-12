@@ -1,0 +1,121 @@
+
+Isabella Alvarez
+Log for AST 4762, Fall 2026
+
+***** IN: Wed Aug 25 15 :10 :52 EDT 2026
+
+Opened TextEdit, started this log, saved as:
+/home/ialvarez27/Desktop/0-ast4762-<ialvarez27>.log
+
+Name: Isabella Alvarez
+Username:ialvarez27
+What astronomy classes have you taken? AST 2002, AST 3402, & AST4142
+Are you generally comfortable with calculus and physics? Yes
+Have you ever programmed a computer? No
+In what language(s)? Python
+Have you taken a programming class, and if so which? COP 2500
+Have you taken statistics or probability? Statistics
+Will you be attending the DPS conference this year, or will
+you be away otherwise? Away
+Why are you taking this course? To work efficiently with data
+Are there particular topics you hope to learn? Advanced flow control coding
+If you have programmed outside of a course before, please briefly describe: N/A
+If you have worked with scientific data before, briefly describe your experience: Run samples in a spectrometer then transferred files into a code to obtain a graph.
+Please describe any projects in astronomy, including involvement in amateur groups, owning a telescope, research, etc.: Currently in a group with Dr. Campins to learn about imaging and obtaining data from OSIRIS-Rex. 
+
+Created a folder saved to my desktop titled "ast4762>/"
+-I made a folder within this folder titled "Homework"
+- I copied the log to the "Homework folder" titled "hw0_<ialvarez27>"
+
+*****OUT: Wed Aug 26 15:38:08
+
+*****IN: Fri August 28 15:32:11
+Opened TextEdit, started this log
+
+Open "Mac Software Installation" in modules through Webcourses
+Downloaded Miniconda using the link in step 2
+Typed in Terminal, pressed return after each: cd~/Downloads
+                                              bash (downloaded file name)
+                                              source~/.bash_profile
+                                              conda update --all
+Downloaded interactive Python packages by typing in terminal:
+                                              conda install numpy scipy ipython matplotlib
+
+Download Homebrew by using the link in "Installation_anaconda_github" found in modules in Webcourses
+Copied line of shell script and pasted it into terminal
+Pressed enter and agreed to terms through terminal 
+
+Used Github Desktop link through same file in modules
+Created an account with my ucf email and downloaded Github 
+
+Homework 
+-All screenshots taken by command+shift+3
+-Created a folder titled "hw1_ialvarez27" under ast4762 homework folder
+-Started Jupyter by typing "Jupyter notebook" in terminal (was previously downloaded before this course)
+- Screenshotted Jupyter homepage and named it "hw1_ialvarez_problem2_jupyter.png", moved file to hw1_ialvarez27
+- Opened Finder, pressed "Macintosh HD", Users, Bella, then screenshotted miniconda and titled it "hw1_ialvarez_problem2_miniconda", moved file to hw1_ialvarez27
+-Opened GitHub, screenshotted homepage, titled it ""hw1_ialvarez_problem2_GitHub",moved file to hw1_ialvarez27
+-Screenshotted my verification of Homebrew in terminal, titled it "hw1_ialvarez_problem2_Homebrew", moved file to hw1_ialvarez27
+-Open GitHub desktop through the website, screenshotted both screens, titled it "hw1_ialvarez_problem2_GitHub", moved file to hw1_ialvarez27
+
+*****OUT Fri August 28 16:12:02
+
+*****IN Mon August 31 8:54:14
+
+Installing Stokes:
+-Opened terminal and typed: ssh is057632@stokes.ist.ucf.edu
+-Typed "yes" to continue connecting
+-Typed in ucf password
+-Screenshotted my terminal, named it "hw1_ialvarez_problem3_Stokes", moved file to hw1_ialvarez27
+
+Turning in Homework 1:
+-Going to copy this log file to hw1_ialvarez27 folder under ast4762
+-Going to zip the hw1_ialvarez27 folder
+-Once I end this log, I will submit the zipped folder in Webcourses under HW1
+
+*****OUT Fri August 28 9:03:12
+
+*****IN September 5, 2026 EDT 9:29:36
+
+Homework 2 Assignment
+-Opened Jupyter Lab through terminal 
+-Opened a new ipynb titled "hw2_<ialvarez27>"
+-Started answering HW2 questions taken from HW2 file through Webcourses 
+
+*****OUT September 5, 2026 EDT 11:30:24
+
+*****IN September 8 2026 EDT 9:35:08
+
+-Opened Jupyter through Terminal 
+-Saved HW2 Jupyter notebook by pressing "Save and Export Notebook as: Executable Script" and choosing .py 
+
+Making the hw2_<ialvarez27> folder through Stokes
+1)Logged into Stokes
+2)typed mkdir "hw2_ialvarez27"
+3)Opened a new shell and typed scp -r ~/Downloads/hw2__ialvarez27_.py is057632@stokes.ist.ucf.edu:
+4)Once file was downloaded, logged back into Stokes & course environment
+5)Copied .py file into folder by typing  cp hw2__ialvarez27_.py hw2_ialvarez27/
+- Did steps 3-5 for my two graphs 
+-Testing code: error popped up suggesting OpenBLAS is trying to start too many background threads at the same time 
+-In my SSH course environment, typed 
+       export OMP_NUM_THREADS=4
+       export OPENBLAS_NUM_THREADS=4
+       export MKL_NUM_THREADS=4
+- Reran .py file and no errors popped up
+
+*****OUT September 8 2026 EDT 11:03:05
+
+*****IN September 8 2026 EDT 13:10:15
+
+Further HW2 Instructions
+- Followed Updated GitHub instructions to upload my ast4762 files 
+- Screenshotted logging history by Command+Shift+3, named it hw2_ialvarez27_GitHub
+- Copying to folder using steps 3-5
+
+What I will be doing 
+- Copying the log into the Stokes folder by using steps 3-5
+- Make a tar.gz of the folder by typing tar -zcf hw2_ialvarez27.tar hw2_ialvarez27
+- Downloading the tar.gz file in my local handin/folder
+- Submitting the tar.gaz file of the hw2/ folder into Webcourses
+
+*****OUT September 8 2026 EDT 14:13:50
