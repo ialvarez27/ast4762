@@ -5,11 +5,8 @@ Explain the purpose of this file
 
 # Import Libraries
 
-import os
 import numpy as np
-import scipy as sp
 import matplotlib.pyplot as plt
-import astropy.io.fits as fits
 
 
 def square(N):
