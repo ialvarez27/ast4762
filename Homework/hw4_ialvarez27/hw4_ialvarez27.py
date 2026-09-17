@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[29]:
+# In[31]:
 
 
 # Isabella Alvarez
@@ -9,14 +9,14 @@
 # September 16, 2026
 
 
-# In[15]:
+# In[32]:
 
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-# In[16]:
+# In[33]:
 
 
 print("Problem 2(a):")
@@ -33,7 +33,7 @@ print ( f" Generated {N} random draws from Gaussian distribution" )
 print ( f" Parameters: Mean (mu) = {mu}, Standard Deviation (sigma) = {sigma}" )
 
 
-# In[27]:
+# In[34]:
 
 
 print("Problem 2(b):")
@@ -53,7 +53,7 @@ plt.savefig('hw4_ialvarez27_problem2b_graph1.png', dpi = 300)
 plt.show()
 
 
-# In[28]:
+# In[36]:
 
 
 print("Problem 2(c):")
@@ -71,7 +71,7 @@ plt.figure(figsize = (10, 6))
 plt.hist(sample, bins)
 
 # Overplotting the histogram
-plt.plot( x, expected, linewidth = 2, color = "red")
+plt.plot( bin_center, expected, linewidth = 2, color = "red")
 plt.xlabel("x")
 plt.ylabel("N(x)")
 plt.title("Histogram of a Gaussian")
@@ -79,7 +79,7 @@ plt.title("Histogram of a Gaussian")
 # Saving graph
 plt.savefig('hw4_ialvarez27_problem2c_graph1.png', dpi = 300)
 
-plt.show
+plt.show()
 
 
 # In[ ]:
